@@ -1,0 +1,130 @@
+/* Color and font */
+
+body {
+	background-color: #F6EFE8;
+	color: #1D1D1D;
+	font-family: 'EB Garamond', serif;
+	font-size: 16px;
+	font-weight: lighter;
+}
+
+h1, h2, h3 {
+	font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+	color: #1D1D1D;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 46px;
+    text-transform: uppercase;
+}
+
+h2 {
+	color: #1D1D1D;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+a {
+	font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    color: #992f9b;
+    font-weight: 600;
+    font-size: 15px;
+    transition: color 0.3s ease;
+}
+a:hover {
+	color: black;
+}
+
+
+/* Customs design with class */
+
+.container {
+    width: 700px;
+    margin: 40px auto;
+}
+
+
+@media (max-width: 760px) {
+        .container {
+        width: 600px;
+    }
+}
+
+
+@media (max-width: 500px) {
+    .container {
+        width: 400px;
+    }
+}
+
+.card-white {
+    background: white;
+    padding: 40px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1)
+    border-radius: 4px;
+    margin: 20px;
+    text-align: center;
+}
+
+.img-circle {
+    border-radius: 50%;
+}
+
+.btn-purple {
+    background-color: #992f9b;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 4px;
+}
+
+.btn-purple:hover {
+    background-color: white;
+    color: #992f9b;
+}
+
+.list-inline {
+    list-style: none;
+    padding-left: 0px;
+}
+
+.list-inline li {
+    display: inline;
+    padding: 10px;
+}
+
+.list-inline i {
+    font-size: 25px;
+    color: rgb(230, 230, 230);
+}
+
+.list-inline i:hover {
+    color: lightblue;
+}
+
+#introduction p {
+    margin-bottom: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
